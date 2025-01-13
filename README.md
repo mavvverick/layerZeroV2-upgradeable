@@ -1,66 +1,7 @@
-## Foundry
+# Upgradeable LayerZeroV2
 
-**Foundry is a blazing fast, portable and modular toolkit for Ethereum application development written in Rust.**
+Upgradeable implementation of [LayerZero V2 OFT](https://github.com/LayerZero-Labs/LayerZero-v2/tree/main/oapp/contracts)
 
-Foundry consists of:
+Target commit: [7da7684](https://github.com/LayerZero-Labs/LayerZero-v2/commit/7da76840e41dc593d3c2007ce35b911b1d816b4b)
 
--   **Forge**: Ethereum testing framework (like Truffle, Hardhat and DappTools).
--   **Cast**: Swiss army knife for interacting with EVM smart contracts, sending transactions and getting chain data.
--   **Anvil**: Local Ethereum node, akin to Ganache, Hardhat Network.
--   **Chisel**: Fast, utilitarian, and verbose solidity REPL.
-
-## Documentation
-
-https://book.getfoundry.sh/
-
-## Usage
-
-### Build
-
-```shell
-$ forge build
-```
-
-### Test
-
-```shell
-$ forge test
-```
-
-### Format
-
-```shell
-$ forge fmt
-```
-
-### Gas Snapshots
-
-```shell
-$ forge snapshot
-```
-
-### Anvil
-
-```shell
-$ anvil
-```
-
-### Deploy
-
-```shell
-$ forge script script/Counter.s.sol:CounterScript --rpc-url <your_rpc_url> --private-key <your_private_key>
-```
-
-### Cast
-
-```shell
-$ cast <subcommand>
-```
-
-### Help
-
-```shell
-$ forge --help
-$ anvil --help
-$ cast --help
-```
+Contains an Openzeppelin v5 compatible messagelib and other dependencies.
