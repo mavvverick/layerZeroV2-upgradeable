@@ -9,7 +9,7 @@ import {OFTCoreUpgradeable} from "./OFTCoreUpgradeable.sol";
  * @title OFT Contract
  * @dev OFT is an ERC-20 token that extends the functionality of the OFTCore contract.
  */
-contract OFTUpgradeableV2 is OFTCoreUpgradeable, ERC20Upgradeable {
+contract OFTUpgradeable is OFTCoreUpgradeable, ERC20Upgradeable {
     /**
      * @dev Initializes the OFT token with a given name and symbol.
      * It sets the state within this contract and also initializes the inherited ERC20 token with the given name and
